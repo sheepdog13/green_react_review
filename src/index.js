@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// public에 있는 index.html의 root를 가져와서
+// 그 안에 리액트 컴포넌트로 보여줌(렌더)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
