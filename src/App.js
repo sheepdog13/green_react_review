@@ -1,10 +1,14 @@
 import './App.css';
+import APIComp from './components/APIComp';
 import EventBox from './components/EventBox';
 import EventOBJ from './components/EventOBJ';
+import Hook from './components/Hook';
 import PropsChildren from './components/PropsChildren';
 import PropsParent from './components/PropsParent';
 import StateBox from './components/StateBox';
+import TestAPI from './components/TestAPI';
 import TestEvent from './components/TestEvent';
+import TestHook from './components/TestHook';
 import TestState from './components/TestState';
 
 // App안에 원하는 내용을 바로 작성할 수 있지만
@@ -18,7 +22,7 @@ function App() {
   // 오류가 났을때 전체가 출력이 되지 않는다
   return (
     <div className="App">
-      <TestEvent />
+      <TestAPI />
     </div>
   );
 }
