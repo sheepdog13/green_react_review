@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/* link관한 디자인은 a태그를 수정한다 */
+a {
+  text-decoration: none;
+}
