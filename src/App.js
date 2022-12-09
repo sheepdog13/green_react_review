@@ -12,10 +12,11 @@ import TestHook from './components/TestHook';
 import TestState from './components/TestState';
 import RootIndex from './page/RootIndex';
 import TestRootIndex from './page/TestRootIndex';
+import StoreIndex from './Redux/StoreIndex';
 
 // App안에 원하는 내용을 바로 작성할 수 있지만
 // 각 내용을 컴포넌트로 만들어서 화면에 출력을 하고 있다
-// 빈컴포넌트를 먼저 만들고 App으로 불러와서 화면보고 작성
+// 빈컴포넌트를 먼저 만들고 App으로 불러와s서 화면보고 작성
 function App() {
   // function App 안에서는 자바스크립트의 내용을 자유롭게 쓸 수 있다
 
@@ -24,7 +25,7 @@ function App() {
   // 오류가 났을때 전체가 출력이 되지 않는다
   return (
     <div className="App">
-      <RootIndex />
+      <StoreIndex />
     </div>
   );
 }

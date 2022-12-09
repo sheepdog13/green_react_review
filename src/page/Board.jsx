@@ -12,7 +12,7 @@ const Board = () => {
             {
                 boardlist.map((boardid)=>(
                     <p>
-                        <NavLink 
+                        <NavLink
                             // NavLink에 isActive 값을 화살표 함수로 가져와서 사용
                             style={({isActive})=> isActive ? {color:"blue"}:{color:"black"}}
                             to={`/board/${boardid}`}>페이지 {boardid} 로 이동합니다
